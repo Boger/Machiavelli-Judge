@@ -2,15 +2,15 @@
 
 require_once("../models/unit.php");
 
-class user
-{
-	//Klassenvariablen
+class user {
+
+	// Klassenvariablen
 
 	public $power;
 	public $units;
 	
-	public function __construct($horst) {
-		$this->power = $horst;
+	public function __construct($power) {
+		$this->power = $power;
 	}
 	
 	public function setInitialUnits() {
@@ -19,14 +19,14 @@ class user
 
 		$this->units = array();
 
-		foreach($setup as $mong){
-			if ((string)$mong["name"] == $this->power){
-				$initialunits = $mong;
+		foreach($setup as $powerName){
+			if ((string)$powerName["name"] == $this->power){
+				$initialunits = $powerName;
 			}
 		}
 		
-		foreach($initialunits as $mong){
-			$unit = new unit((string)$mong["type"], (string)$mong["region"]);
+		foreach($initialunits as $unitTypeAndRegion){
+			$unit = new unit((string)$unitTypeAndRegion["type"], (string)$unitTypeAndRegion["region"]);
 			array_push($this->units, $unit);
 			}
 	}

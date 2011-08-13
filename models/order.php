@@ -4,17 +4,10 @@ abstract class order
 {
 	// Klassenvariablen
 
-	public $status;
-	public $strength;
-	public $orderType;
-	
-	function initializeValues() {
-		$this->strength = 1;
-		$this->status = "unprocessed";
-	}
+	public $orderType;	// move || convert || hold || support || besiege || convoy
 	
 	function orderClass() {
-		 return ($this->orderType == "move") ? "move" : "hold";
+		 return ($this->orderType == "move" || $this->orderType == "convert") ? "move" : "hold";
 	}
 }
 
@@ -24,10 +17,10 @@ class orderMove extends order
 
 	public $moveDestination;
 	
-	function __construct($horst) {
-		$this->moveDestination = $horst;
+	function __construct($a) {
+		$this->moveDestination = $a;
 		$this->orderType = "move";
-		$this->initializeValues();
+		$this->orderClass = "move";
 	}
 	
 	function orderSyntax() {
@@ -41,10 +34,10 @@ class orderConvert extends order
 
 	public $convertType;
 	
-	function __construct($horst) {
-		$this->convertType = $horst;
+	function __construct($a) {
+		$this->convertType = $a;
 		$this->orderType = "convert";
-		$this->initializeValues();
+		$this->orderClass = "move";
 	}
 
 	function orderSyntax() {
@@ -56,7 +49,7 @@ class orderHold extends order
 {	
 	function __construct() {
 		$this->orderType = "hold";
-		$this->initializeValues();
+		$this->orderClass = "hold";
 	}
 
 	function orderSyntax() {
@@ -68,20 +61,23 @@ class orderSupport extends order
 {
 	// Klassenvariablen
 
-	public $supportUnit;
-	public $supportDestination;
+	public $supportTarget;		// The unit to be supported.
+	public $supportClass;		// The class of the supported order.
+	public $supportDestination;	// The destination of the supported move order.
 	
-	function __construct($horst, $muschi) {
-		$this->supportUnit = $horst;
-		$this->supportDestination = $muschi;
+	function __construct($a, $b, $c = null) {
+		$this->supportTarget = $a;
+		$this->supportClass = $b;
+		$this->supportDestination = $c;
 		$this->orderType = "support";
-		$this->initializeValues();
+		$this->orderClass = "hold";
 	}
 
 	function orderSyntax() {
-		if ($this->supportDestination == "H")
-			return " S ".$this->supportUnit." ".$this->supportDestination;
-		else return " S ".$this->supportUnit." - ".$this->supportDestination;
+		if ($this->supportClass == "hold")
+			return " S ".$this->supportTarget." H";
+		elseif ($this->supportClass == "move") // Conversion muß hier noch rein
+			return " S ".$this->supportTarget." - ".$this->supportDestination;
 	}
 			
 }
@@ -90,7 +86,7 @@ class orderBesiege extends order
 {
 	function __construct() {
 		$this->orderType = "besiege";
-		$this->initializeValues();
+		$this->orderClass = "hold";
 	}
 
 	function orderSyntax(){
@@ -105,11 +101,11 @@ class orderConvoy extends order
 	public $convoyUnit;
 	public $convoyDestination;
 	
-	function __construct($horst, $muschi) {
-		$this->convoyUnit = $horst;
-		$this->convoyDestination = $muschi;
+	function __construct($a, $b) {
+		$this->convoyUnit = $a;
+		$this->convoyDestination = $b;
 		$this->orderType = "convoy";
-		$this->initializeValues();
+		$this->orderClass = "hold";
 	}
 
 	function orderSyntax(){

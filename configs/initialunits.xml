@@ -5,44 +5,57 @@
 	<unit type="A" region="AVI"/>
 	<unit type="A" region="SWI"/>
 	<unit type="F" region="MAR"/>
+		<unit type="A" region="PRO"/>
+		<unit type="F" region="GOL"/>
+		<unit type="A" region="COR"/>
 </power>
 <power name="Austria">
 	<unit type="A" region="TYR"/>
 	<unit type="A" region="AUS"/>
 	<unit type="A" region="HUN"/>
-	<unit type="A" region="TRENT"/>
+		<unit type="A" region="CARIN"/>
+		<unit type="A" region="TRENT"/>
+		<unit type="A" region="CAR"/>
 </power>
 <power name="Milan">
 	<unit type="A" region="MIL"/>
 	<unit type="A" region="PAV"/>
 	<unit type="A" region="CRE"/>
+		<unit type="A" region="MON"/>
+		<unit type="A" region="TUR"/>
 </power>
 <power name="Venice">
 	<unit type="A" region="PAD"/>
 	<unit type="A" region="TRE"/>
 	<unit type="G" region="VEN"/>
-	<unit type="F" region="DAL"/>	
+	<unit type="F" region="DAL"/>
+		<unit type="A" region="MAN"/>
 </power>
 <power name="Florence">
 	<unit type="A" region="FLO"/>
 	<unit type="A" region="ARE"/>
 	<unit type="F" region="PISA"/>
+		<unit type="A" region="PIS"/>
+		<unit type="A" region="SIE"/>
 </power>
 <power name="Papacy">
 	<unit type="A" region="BOL"/>
 	<unit type="A" region="PER"/>
 	<unit type="A" region="ROME"/>
 	<unit type="F" region="ANC"/>
+		<unit type="A" region="URB"/>
 </power>
 <power name="Naples">
 	<unit type="F" region="NAP"/>
 	<unit type="A" region="BARI"/>
 	<unit type="F" region="PAL"/>
 	<unit type="A" region="MES"/>
+		<unit type="F" region="GON"/>
 </power>
 <power name="Turkey">
 	<unit type="F" region="TUN"/>
 	<unit type="A" region="ALB"/>
 	<unit type="F" region="DUR"/>
+		<unit type="F" region="WM"/>
 </power>
 </initialunits>
