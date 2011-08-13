@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<initialunits>
+<power name="France">
+	<region name="AVI" />
+	<region name="SWI" />
+	<region name="MAR" />
+	<region name="PRO" />
+</power>
+<power name="Austria">
+	<region name="AVI" />
+	<region name="SWI" />
+	<region name="MAR" />
+	<region name="PRO" />
+</power>
+<power name="Milan">
+	<region name="AVI" />
+	<region name="SWI" />
+	<region name="MAR" />
+	<region name="PRO" />
+</power>
+<power name="Venice">
+	<region name="AVI" />
+	<region name="SWI" />
+	<region name="MAR" />
+	<region name="PRO" />	
+</power>
+<power name="Florence">
+	<region name="AVI" />
+	<region name="SWI" />
+	<region name="MAR" />
+	<region name="PRO" />
+</power>
+<power name="Papacy">
+	<region name="AVI" />
+	<region name="SWI" />
+	<region name="MAR" />
+	<region name="PRO" />
+</power>
+<power name="Naples">
+	<region name="AVI" />
+	<region name="SWI" />
+	<region name="MAR" />
+	<region name="PRO" />
+</power>
+<power name="Turkey">
+	<region name="AVI" />
+	<region name="SWI" />
+	<region name="MAR" />
+	<region name="PRO" />
+</power>
+</initialunits>

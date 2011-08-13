@@ -1,0 +1,44 @@
+
+
+
+ABLAGE
+
+
+
+*** Pseudo-Code für Auswertung ***
+
+/*  1. For each region:
+	
+	finished = 1
+	
+	For each unit as u1 
+		if u1 moves to region or holds region and status "unprocessed" then add u1 to combat list and finished = 0 END
+
+if combat list item number = 1 then process order
+else sort combat list numeric
+
+if combat #1 > #2 then process order #1 and mark all others as failed
+
+	for each combat
+		if orderType == "hold" then mark as dislodged (orderResult)
+		if orderType == "move" then mark as defeated (orderResult)
+	
+if combat #1 = #2 then mark all as bounce
+	
+2. Go to 1. until finished = 1  */
+
+
+
+*** andere Cobat list Sortierung ***
+
+	/*
+	function sortCombatList($combatlist){	
+		usort($combatlist, function($a, $b) {
+    		if ($a->order->strength == $b->order->strength) {
+       			return 0;
+    			}
+    		return ($a->order->strength > $b->order->strength) ? -1 : 1;
+    		});
+    	return $combatlist;
+	}
+	*/

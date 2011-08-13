@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<map>
+<region name="Avignon" abbreviation="AVI" fortified="yes" port="no" oncoast="yes" start_owner="france">
+	<exit>SWI</exit><exit>PRO</exit><exit>TUR</exit><exit>GOL</exit></region>
+<region name="Marseille" abbreviation="MAR" fortified="yes" port="yes" oncoast="yes" start_owner="france">
+	<exit>AVI</exit><exit>PRO</exit><exit>GOL</exit></region>
+<region name="Lucca" abbreviation="LUC" fortified="yes" port="no" oncoast="yes" start_owner="neutral">
+	<exit>AVI</exit><exit>PRO</exit><exit>GOL</exit></region>	
+</map>
+

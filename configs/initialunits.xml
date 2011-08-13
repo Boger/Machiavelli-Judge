@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<initialunits>
+<power name="France">
+	<unit type="A" region="AVI"/>
+	<unit type="A" region="SWI"/>
+	<unit type="F" region="MAR"/>
+</power>
+<power name="Austria">
+	<unit type="A" region="TYR"/>
+	<unit type="A" region="AUS"/>
+	<unit type="A" region="HUN"/>
+	<unit type="A" region="TRENT"/>
+</power>
+<power name="Milan">
+	<unit type="A" region="MIL"/>
+	<unit type="A" region="PAV"/>
+	<unit type="A" region="CRE"/>
+</power>
+<power name="Venice">
+	<unit type="A" region="PAD"/>
+	<unit type="A" region="TRE"/>
+	<unit type="G" region="VEN"/>
+	<unit type="F" region="DAL"/>	
+</power>
+<power name="Florence">
+	<unit type="A" region="FLO"/>
+	<unit type="A" region="ARE"/>
+	<unit type="F" region="PISA"/>
+</power>
+<power name="Papacy">
+	<unit type="A" region="BOL"/>
+	<unit type="A" region="PER"/>
+	<unit type="A" region="ROME"/>
+	<unit type="F" region="ANC"/>
+</power>
+<power name="Naples">
+	<unit type="F" region="NAP"/>
+	<unit type="A" region="BARI"/>
+	<unit type="F" region="PAL"/>
+	<unit type="A" region="MES"/>
+</power>
+<power name="Turkey">
+	<unit type="F" region="TUN"/>
+	<unit type="A" region="ALB"/>
+	<unit type="F" region="DUR"/>
+</power>
+</initialunits>

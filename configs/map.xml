@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<map>
+<region name="Avignon" abbr="AVI" type="Land" city="Fortified" homeland="France">
+	<alr>SWI</alr>
+	<alr>TUR</alr>
+	<alr>PRO</alr>
+	<alr>MAR</alr>
+	<asr>GOL</asr>
+	<ac>MAR</ac>
+</region>
+<region name="Marseille" abbr="MAR" type="Land" city="Port" homeland="France">
+	<alr>AVI</alr>
+	<alr>PRO</alr>
+	<asr>GOL</asr>
+	<ac>AVI</ac>
+	<ac>PRO</ac>
+</region>
+<region name="Swiss" abbr="SWI" type="Land" city="Unfortified" homeland="France">
+	<alr>AVI</alr>
+	<alr>TUR</alr>
+	<alr>TYR</alr>
+</region>
+<region name="Provence" abbr="PRO" type="Land" city="None" homeland="France">
+	<alr>AVI</alr>
+	<alr>TUR</alr>
+	<alr>SALZ</alr>
+	<alr>SAV</alr>
+	<alr>MAR</alr>
+	<asr>GOL</asr>
+	<asr>LS</asr>
+	<ac>MAR</ac>
+	<ac>SAV</ac>
+</region>
+<region name="Turin" abbr="TUR" type="Land" city="Fortified" homeland="Neutral">
+	<alr>AVI</alr>
+	<alr>PRO</alr>
+	<alr>SWI</alr>
+	<alr>TYR</alr>
+	<alr>COMO</alr>
+	<alr>PAV</alr>
+	<alr>MON</alr>
+	<alr>SAV</alr>
+	<alr>SALZ</alr>
+</region>
+<region name="Saluzzo" abbr="SALZ" type="Land" city="Fortified" homeland="Neutral">
+	<alr>PRO</alr>
+	<alr>TUR</alr>
+	<alr>SAV</alr>
+</region>
+<region name="Savoy" abbr="SAV" type="Land" city="Port" homeland="Neutral">
+	<alr>PRO</alr>
+	<alr>SALZ</alr>
+	<alr>TUR</alr>
+	<alr>MON</alr>
+	<alr>GEN</alr>
+	<asr>LS</asr>
+	<ac>PRO</ac>
+	<ac>GEN</ac>
+</region>
+<region name="Montferrat" abbr="MON" type="Land" city="Fortified" homeland="Neutral">
+	<alr>TUR</alr>
+	<alr>PAV</alr>
+	<alr>FOR</alr>
+	<alr>GEN</alr>
+	<alr>SAV</alr>
+</region>
+<region name="Genoa" abbr="GEN" type="Land" city="Port (3)" homeland="Neutral">
+	<alr>SAV</alr>
+	<alr>MON</alr>
+	<alr>FOR</alr>
+	<alr>MOD</alr>
+	<asr>LS</asr>
+	<ac>SAV</ac>
+	<ac>MOD</ac>
+</region>
+<region name="Tyrol" abbr="TYR" type="Land" city="Fortified" homeland="Austria">
+	<alr>SWI</alr>
+	<alr>TUR</alr>
+	<alr>COMO</alr>
+	<alr>MIL</alr>
+	<alr>CARIN</alr>
+	<alr>AUS</alr>
+</region>
+<region name="Austria" abbr="AUS" type="Land" city="Fortified" homeland="Austria">
+	<alr>TYR</alr>
+	<alr>CARIN</alr>
+	<alr>SLA</alr>
+	<alr>HUN</alr>
+</region>
+<region name="Hungary" abbr="HUN" type="Land" city="Unfortified" homeland="Austria">
+	<alr>AUS</alr>
+	<alr>SLA</alr>
+</region>
+<region name="Carinthia" abbr="CARIN" type="Land" city="None" homeland="Austria">
+	<alr>TYR</alr>
+	<alr>AUS</alr>
+	<alr>HUN</alr>
+	<alr>SLA</alr>
+	<alr>CAR</alr>
+	<alr>FRI</alr>
+	<alr>VER</alr>
+	<alr>TRENT</alr>
+	<alr>MIL</alr>
+</region>
+<region name="Como" abbr="COMO" type="Land" city="None" homeland="Milan">
+	<alr>PAV</alr>
+	<alr>TUR</alr>
+	<alr>TYR</alr>
+	<alr>MIL</alr>
+</region>
+<region name="Milan" abbr="MIL" type="Land" city="Fortified (3)" homeland="Milan">
+	<alr>PAV</alr>
+	<alr>COMO</alr>
+	<alr>TYR</alr>
+	<alr>CARIN</alr>
+	<alr>TRENT</alr>
+	<alr>BER</alr>
+	<alr>CRE</alr>
+	<alr>PAR</alr>
+</region>
+<region name="Pavia" abbr="PAV" type="Land" city="Fortified" homeland="Milan">
+	<alr>MON</alr>
+	<alr>TUR</alr>
+	<alr>COMO</alr>
+	<alr>MIL</alr>
+	<alr>PAR</alr>
+	<alr>FOR</alr>
+</region>
+<region name="Fornovo" abbr="FOR" type="Land" city="None" homeland="Milan">
+	<alr>PAV</alr>
+	<alr>PAR</alr>
+	<alr>MOD</alr>
+	<alr>GEN</alr>
+	<alr>MON</alr>
+</region>
+<region name="Parma" abbr="PAR" type="Land" city="None" homeland="Milan">
+	<alr>FOR</alr>
+	<alr>PAV</alr>
+	<alr>MIL</alr>
+	<alr>CRE</alr>
+	<alr>MAN</alr>
+	<alr>MOD</alr>
+</region>
+<region name="Cremona" abbr="CRE" type="Land" city="Fortified" homeland="Milan">
+	<alr>PAR</alr>
+	<alr>MIL</alr>
+	<alr>BER</alr>
+	<alr>MAN</alr>
+</region>
+<region name="Trent" abbr="TRENT" type="Land" city="Fortified" homeland="Neutral">
+	<alr>MIL</alr>
+	<alr>CARIN</alr>
+	<alr>VER</alr>
+	<alr>BER</alr>
+</region>
+<region name="Slavonia" abbr="SLA" type="Land" city="None" homeland="Neutral">
+	<alr>HUN</alr>
+	<alr>AUS</alr>
+	<alr>CARIN</alr>
+	<alr>CAR</alr>
+	<alr>CRO</alr>
+</region>
+<region name="Carniola" abbr="CAR" type="Land" city="Unfortified" homeland="Neutral">
+	<alr>FRI</alr>
+	<alr>CARIN</alr>
+	<alr>SLA</alr>
+	<alr>CRO</alr>
+	<alr>IST</alr>
+	<asr>UA</asr>
+	<ac>FRI</ac>
+	<ac>IST</ac>
+</region>
+<region name="Croatia" abbr="CRO" type="Land" city="Unfortified" homeland="Neutral">
+	<alr>SLA</alr>
+	<alr>CAR</alr>
+	<alr>IST</alr>
+	<alr>DAL</alr>
+	<alr>BOS</alr>
+	<asr>UA</asr>
+	<ac>IST</ac>
+	<ac>DAL</ac>
+</region>
+<region name="Bergamo" abbr="BER" type="Land" city="None" homeland="Venice">
+	<alr>MIL</alr>
+	<alr>TRENT</alr>
+	<alr>VER</alr>
+	<alr>MAN</alr>
+	<alr>CRE</alr>
+</region>
+<region name="Verona" abbr="VER" type="Land" city="None" homeland="Venice">
+	<alr>TRENT</alr>
+	<alr>CARIN</alr>
+	<alr>FRI</alr>
+	<alr>TRE</alr>
+	<alr>PAD</alr>
+	<alr>FER</alr>
+	<alr>MAN</alr>
+	<alr>BER</alr>
+</region>
+<region name="Padua" abbr="PAD" type="Land" city="Fortified" homeland="Venice">
+	<alr>FER</alr>
+	<alr>VER</alr>
+	<alr>TRE</alr>
+	<asr>UA</asr>
+	<asr>VEN</asr>
+	<ac>FER</ac>
+	<ac>TRE</ac>
+</region>
+<region name="Treviso" abbr="TRE" type="Land" city="Fortified" homeland="Venice">
+	<alr>PAD</alr>
+	<alr>VER</alr>
+	<alr>FRI</alr>
+	<asr>VEN</asr>
+	<ac>PAD</ac>
+	<ac>FRI</ac>
+</region>
+<region name="Friuli" abbr="FRI" type="Land" city="None" homeland="Venice">
+	<alr>TRE</alr>
+	<alr>VER</alr>
+	<alr>CARIN</alr>
+	<alr>CAR</alr>
+	<asr>VEN</asr>
+	<asr>UA</asr>
+	<ac>TRE</ac>
+	<ac>CAR</ac>
+</region>
+<region name="Istria" abbr="IST" type="Land" city="None" homeland="Venice">
+	<alr>CAR</alr>
+	<alr>CRO</alr>
+	<asr>UA</asr>
+	<ac>CAR</ac>
+	<ac>CRO</ac>
+</region>
+<region name="Dalmatia" abbr="DAL" type="Land" city="Unfortified" homeland="Venice">
+	<alr>CRO</alr>
+	<alr>BOS</alr>
+	<alr>HER</alr>
+	<asr>UA</asr>
+	<asr>LA</asr>
+	<ac>CRO</ac>
+	<ac>HER</ac>
+</region>
+<region name="Venice" abbr="VEN" type="Sea" city="Port (3)" homeland="Venice">
+	<alr>PAD</alr>
+	<alr>TRE</alr>
+	<alr>FRI</alr>
+	<asr>UA</asr>
+</region>
+<region name="Ferrara" abbr="FER" type="Land" city="Fortified" homeland="Neutral">
+	<alr>BOL</alr>
+	<alr>MAN</alr>
+	<alr>VER</alr>
+	<alr>PAD</alr>
+	<asr>UA</asr>
+	<ac>BOL</ac>
+	<ac>PAD</ac>
+</region>
+<region name="Mantua" abbr="MAN" type="Land" city="Fortified" homeland="Neutral">
+	<alr>CRE</alr>
+	<alr>BER</alr>
+	<alr>VER</alr>
+	<alr>FER</alr>
+	<alr>BOL</alr>
+	<alr>MOD</alr>
+	<alr>PAR</alr>
+</region>
+<region name="Modena" abbr="MOD" type="Land" city="Fortified" homeland="Neutral">
+	<alr>GEN</alr>
+	<alr>FOR</alr>
+	<alr>PAR</alr>
+	<alr>MAN</alr>
+	<alr>BOL</alr>
+	<alr>LUC</alr>
+	<asr>LS</asr>
+	<ac>GEN</ac>
+	<ac>LUC</ac>
+</region>
+<region name="Lucca" abbr="LUC" type="Land" city="Fortified" homeland="Neutral">
+	<alr>MOD</alr>
+	<alr>BOL</alr>
+	<alr>PIS</alr>
+	<alr>PISA</alr>
+	<asr>LS</asr>
+	<ac>MOD</ac>
+	<ac>PISA</ac>
+</region>
+<region name="Corsica" abbr="COR" type="Land" city="Unfortified" homeland="Neutral">
+	<alr>SAR</alr>
+	<asr>GOL</asr>
+	<asr>LS</asr>
+	<asr>TS</asr>
+	<ac>SAR</ac>
+</region>
+<region name="Sardinia" abbr="SAR" type="Land" city="Unfortified" homeland="Neutral">
+	<alr>COR</alr>
+	<asr>GOL</asr>
+	<asr>TS</asr>
+	<asr>WM</asr>
+	<ac>COR</ac>
+</region>
+<region name="Piombino" abbr="PIO" type="Land" city="Port" homeland="Neutral">
+	<alr>PISA</alr>
+	<alr>SIE</alr>
+	<asr>LS</asr>
+	<asr>TS</asr>
+	<ac>PISA</ac>
+	<ac>SIE</ac>
+</region>
+<region name="Siena" abbr="SIE" type="Land" city="Fortified" homeland="Neutral">
+	<alr>PIO</alr>
+	<alr>PISA</alr>
+	<alr>FLO</alr>
+	<alr>ARE</alr>
+	<alr>PER</alr>
+	<alr>PAT</alr>
+	<asr>TS</asr>
+	<ac>PIO</ac>
+	<ac>PAT</ac>
+</region>
+<region name="Pisa" abbr="PISA" type="Land" city="Port" homeland="Florence">
+	<alr>LUC</alr>
+	<alr>PIS</alr>
+	<alr>FLO</alr>
+	<alr>SIE</alr>
+	<alr>PIO</alr>
+	<asr>LS</asr>
+	<ac>LUC</ac>
+	<ac>PIO</ac>
+</region>
+<region name="Pistoia" abbr="PIS" type="Land" city="None" homeland="Florence">
+	<alr>PISA</alr>
+	<alr>LUC</alr>
+	<alr>BOL</alr>
+	<alr>FLO</alr>
+</region>
+<region name="Florence" abbr="FLO" type="Land" city="Fortified (3)" homeland="Florence">
+	<alr>PISA</alr>
+	<alr>PIS</alr>
+	<alr>BOL</alr>
+	<alr>URB</alr>
+	<alr>ARE</alr>
+	<alr>SIE</alr>
+</region>
+<region name="Arezzo" abbr="ARE" type="Land" city="Fortified" homeland="Florence">
+	<alr>FLO</alr>
+	<alr>URB</alr>
+	<alr>PER</alr>
+	<alr>SIE</alr>
+</region>
+<region name="Bologna" abbr="BOL" type="Land" city="Fortified" homeland="Papacy">
+	<alr>FER</alr>
+	<alr>MAN</alr>
+	<alr>MOD</alr>
+	<alr>LUC</alr>
+	<alr>PIS</alr>
+	<alr>FLO</alr>
+	<alr>URB</alr>
+	<asr>UA</asr>
+	<ac>FER</ac>
+	<ac>URB</ac>
+</region>
+<region name="Urbino" abbr="URB" type="Land" city="None" homeland="Papacy">
+	<alr>BOL</alr>
+	<alr>FLO</alr>
+	<alr>ARE</alr>
+	<alr>PER</alr>
+	<alr>SPO</alr>
+	<alr>ANC</alr>
+	<asr>UA</asr>
+	<ac>BOL</ac>
+	<ac>ANC</ac>
+</region>
+<region name="Perugia" abbr="PER" type="Land" city="Fortified" homeland="Papacy">
+	<alr>SIE</alr>
+	<alr>ARE</alr>
+	<alr>URB</alr>
+	<alr>SPO</alr>
+	<alr>ROME</alr>
+	<alr>PAT</alr>
+</region>
+<region name="Patrimony" abbr="PAT" type="Land" city="None" homeland="Papacy">
+	<alr>SIE</alr>
+	<alr>PER</alr>
+	<alr>ROME</alr>
+	<asr>TS</asr>
+	<ac>SIE</ac>
+	<ac>ROME</ac>
+</region>
+<region name="Rome" abbr="ROME" type="Land" city="Fortified (2)" homeland="Papacy">
+	<alr>PAT</alr>
+	<alr>PER</alr>
+	<alr>SPO</alr>
+	<alr>CAP</alr>
+	<asr>TS</asr>
+	<ac>PAT</ac>
+	<ac>CAP</ac>
+</region>
+<region name="Spoleto" abbr="SPO" type="Land" city="None" homeland="Papacy">
+	<alr>ROME</alr>
+	<alr>PER</alr>
+	<alr>URB</alr>
+	<alr>ANC</alr>
+	<alr>AQU</alr>
+	<alr>CAP</alr>
+</region>
+<region name="Ancona" abbr="ANC" type="Land" city="Port" homeland="Papacy">
+	<alr>URB</alr>
+	<alr>SPO</alr>
+	<alr>AQU</alr>
+	<asr>UA</asr>
+	<asr>LA</asr>
+	<ac>URB</ac>
+	<ac>AQU</ac>
+</region>
+<region name="Capua" abbr="CAP" type="Land" city="None" homeland="Naples">
+	<alr>ROME</alr>
+	<alr>SPO</alr>
+	<alr>AQU</alr>
+	<alr>NAP</alr>
+	<asr>TS</asr>
+	<ac>ROME</ac>
+	<ac>NAP</ac>
+</region>
+<region name="Aquila" abbr="AQU" type="Land" city="None" homeland="Naples">
+	<alr>ANC</alr>
+	<alr>SPO</alr>
+	<alr>CAP</alr>
+	<alr>NAP</alr>
+	<alr>SAL</alr>
+	<alr>BARI</alr>
+	<asr>LA</asr>
+	<ac>ANC</ac>
+	<ac>BARI</ac>
+</region>
+<region name="Naples" abbr="NAP" type="Land" city="Port (2)" homeland="Naples">
+	<alr>CAP</alr>
+	<alr>AQU</alr>
+	<alr>SAL</alr>
+	<asr>TS</asr>
+	<asr>GON</asr>
+	<ac>CAP</ac>
+	<ac>SAL</ac>
+</region>
+<region name="Salerno" abbr="SAL" type="Land" city="None" homeland="Naples">
+	<alr>NAP</alr>
+	<alr>AQU</alr>
+	<alr>BARI</alr>
+	<alr>OTR</alr>
+	<asr>GON</asr>
+	<ac>NAP</ac>
+	<ac>OTR</ac>
+</region>
+<region name="Bari" abbr="BARI" type="Land" city="Port" homeland="Naples">
+	<alr>AQU</alr>
+	<alr>SAL</alr>
+	<alr>OTR</alr>
+	<asr>LA</asr>
+	<ac>AQU</ac>
+	<ac>OTR</ac>
+</region>
+<region name="Otranto" abbr="OTR" type="Land" city="None" homeland="Naples">
+	<alr>SAL</alr>
+	<alr>BARI</alr>
+	<alr>MES</alr>
+	<asr>GON</asr>
+	<asr>IS</asr>
+	<asr>LA</asr>
+	<ac>SAL</ac>
+	<ac>BARI</ac>
+	<ac>MES</ac>
+</region>
+<region name="Messina" abbr="MES" type="Land" city="Port" homeland="Naples">
+	<alr>PAL</alr>
+	<alr>OTR</alr>
+	<asr>GON</asr>
+	<asr>IS</asr>
+	<ac>PAL</ac>
+	<ac>OTR</ac>
+</region>
+<region name="Palermo" abbr="PAL" type="Land" city="Port" homeland="Naples">
+	<alr>MES</alr>
+	<asr>GON</asr>
+	<asr>TS</asr>
+	<asr>CM</asr>
+	<asr>IS</asr>
+	<ac>MES</ac>
+</region>
+<region name="Tunis" abbr="TUN" type="Land" city="Port (2)" homeland="Turkey">
+	<asr>WM</asr>
+	<asr>CM</asr>
+</region>
+<region name="Durazzo" abbr="DUR" type="Land" city="Port" homeland="Turkey">
+	<alr>ALB</alr>
+	<asr>IS</asr>
+	<asr>LA</asr>
+	<ac>ALB</ac>
+</region>
+<region name="Albania" abbr="ALB" type="Land" city="Unfortified" homeland="Turkey">
+	<alr>DUR</alr>
+	<alr>RAG</alr>
+	<alr>HER</alr>
+	<asr>LA</asr>
+	<ac>DUR</ac>
+	<ac>RAG</ac>
+</region>
+<region name="Herzegovina" abbr="HER" type="Land" city="None" homeland="Turkey">
+	<alr>ALB</alr>
+	<alr>RAG</alr>
+	<alr>DAL</alr>
+	<alr>BOS</alr>
+	<asr>LA</asr>
+	<ac>RAG</ac>
+	<ac>DAL</ac>
+</region>
+<region name="Bosnia" abbr="BOS" type="Land" city="None" homeland="Turkey">
+	<alr>HER</alr>
+	<alr>DAL</alr>
+	<alr>CRO</alr>
+</region>
+<region name="Ragusa" abbr="RAG" type="Land" city="Port" homeland="Neutral">
+	<alr>ALB</alr>
+	<alr>HER</alr>
+	<asr>LA</asr>
+	<ac>ALB</ac>
+	<ac>HER</ac>
+</region>
+
+SEA REGIONS (Except Venice)
+
+<region name="Gulf of Lyon" abbr="GOL" type="Sea" city="-" homeland="-">
+	<alr>AVI</alr>
+	<alr>MAR</alr>
+	<alr>PRO</alr>
+	<alr>COR</alr>
+	<alr>SAR</alr>
+	<asr>LS</asr>
+	<asr>TS</asr>
+	<asr>WM</asr>
+</region>
+<region name="Ligurian Sea" abbr="LS" type="Sea" city="-" homeland="-">
+	<alr>PRO</alr>
+	<alr>SAV</alr>
+	<alr>GEN</alr>
+	<alr>MOD</alr>
+	<alr>LUC</alr>
+	<alr>PISA</alr>
+	<alr>PIO</alr>
+	<alr>COR</alr>
+	<asr>GOL</asr>
+	<asr>TS</asr>
+</region>
+<region name="Tyrrhenian Sea" abbr="TS" type="Sea" city="-" homeland="-">
+	<alr>SAR</alr>
+	<alr>COR</alr>
+	<alr>PIO</alr>
+	<alr>SIE</alr>
+	<alr>PAT</alr>
+	<alr>ROME</alr>
+	<alr>CAP</alr>
+	<alr>NAP</alr>
+	<alr>PAL</alr>
+	<asr>LS</asr>
+	<asr>GOL</asr>
+	<asr>WM</asr>
+	<asr>CM</asr>
+	<asr>GON</asr>
+</region>
+<region name="Western Mediterranean" abbr="WM" type="Sea" city="-" homeland="-">
+	<alr>SAR</alr>
+	<alr>TUN</alr>
+	<asr>GOL</asr>
+	<asr>TS</asr>
+	<asr>CM</asr>
+</region>
+<region name="Central Mediterranean" abbr="CM" type="Sea" city="-" homeland="-">
+	<alr>TUN</alr>
+	<alr>PAL</alr>
+	<asr>WM</asr>
+	<asr>TS</asr>
+	<asr>IS</asr>
+</region>
+<region name="Gulf of Naples" abbr="GON" type="Sea" city="-" homeland="-">
+	<alr>NAP</alr>
+	<alr>SAL</alr>
+	<alr>OTR</alr>
+	<alr>MES</alr>
+	<alr>PAL</alr>
+	<asr>TS</asr>
+	<asr>IS</asr>
+</region>
+<region name="Ionian Sea" abbr="IS" type="Sea" city="-" homeland="-">
+	<alr>PAL</alr>
+	<alr>MES</alr>
+	<alr>OTR</alr>
+	<alr>DUR</alr>
+	<asr>CM</asr>
+	<asr>GON</asr>
+	<asr>LA</asr>
+</region>
+<region name="Lower Adriatic" abbr="LA" type="Sea" city="-" homeland="-">
+	<alr>OTR</alr>
+	<alr>BARI</alr>
+	<alr>AQU</alr>
+	<alr>ANC</alr>
+	<alr>DAL</alr>
+	<alr>HER</alr>
+	<alr>RAG</alr>
+	<alr>ALB</alr>
+	<alr>DUR</alr>
+	<asr>IS</asr>
+	<asr>UA</asr>
+</region>
+<region name="Upper Adriatic" abbr="UA" type="Sea" city="-" homeland="-">
+	<alr>ANC</alr>
+	<alr>URB</alr>
+	<alr>BOL</alr>
+	<alr>FER</alr>
+	<alr>PAD</alr>
+	<alr>FRI</alr>
+	<alr>CAR</alr>
+	<alr>IST</alr>
+	<alr>CRO</alr>
+	<alr>DAL</alr>
+	<asr>LA</asr>
+	<asr>VEN</asr>
+</region>
+
+</map>
+
